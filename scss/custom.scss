@@ -1,0 +1,24 @@
+//custom SCSS
+// Colors
+
+$gray-800: #7158e2 !default;
+
+$text-muted: #eee;
+
+$primary:$gray-800;
+$secondary:#58B19F;
+
+// Border Radius
+
+$border-radius:               10px !default;
+$border-radius-lg:            20px !default;
+$border-radius-sm:            5px !default;
+
+
+.card-body{
+	.text-muted{
+		color:darken($text-muted,30) !important;
+	}
+}
+
+@import "../bootstrap/scss/bootstrap";
